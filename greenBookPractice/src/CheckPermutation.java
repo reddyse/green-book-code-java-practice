@@ -52,8 +52,7 @@ public class CheckPermutation {
         // increment count in the corresponding
         // count array
         for (i = 0; i <str1.length && i < str2.length ;
-             i++)
-        {
+             i++) {
             count1[str1[i]]++;
             count2[str2[i]]++;
         }
